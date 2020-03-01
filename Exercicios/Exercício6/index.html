@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Exercício 6</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="text-center">Exercício 6</h1>
+        <div class="blocked">
+            <form method="get" action=".">
+                <input name="cep" type="text" id="cep" value="" onblur="pesquisacep(this.value);"
+                    placeholder="Digite seu CEP aqui" />
+                <pre class="text-center" name="resposta" id="resposta"></pre>
+                <!-- Como não encontrei uma forma de fazer sem os input apenas o deixei escondidos por ora -->
+                <input name="rua" type="hidden" id="rua" />
+                <input name="cidade" type="hidden" id="cidade" />
+                <input name="uf" type="hidden" id="uf" />
+                <input name="ibge" type="hidden" id="ibge" />
+                <pre name="resposta" id="resposta"></pre>
+            </form>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
