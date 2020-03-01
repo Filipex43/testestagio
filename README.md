@@ -9,6 +9,12 @@ Exercícios realizado para o internship-challenge da technave
 - escolha o exercicio para testar;
 - abra o index.html;
 
+# Como Realizar os Testes(Front-End)
+- Faça o download da pasta(caso não tenha feito);
+- abra o prompt de comando;
+- Vá a pasta frontend atraves do prompt e digite "npm start";
+- Espere a janela abrir;
+
 ## Exercicio 1
 
 Digite algo nas duas strings e então clique no botão para verificar qual das duas strings é maior.
